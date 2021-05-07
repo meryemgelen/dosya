@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.16.0.final using JasperReports Library version 6.16.0-48579d909b7943b64690c65c71e07e0b80981928  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Blank_A4" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="ec2692de-dc79-424a-84b2-9adbecac0b91">
+	<property name="com.jaspersoft.studio.data.sql.tables">
+		<![CDATA[aGFyaXRhLnBlcnNvbmVsICwxNSwxNSxkZDJiOTE0OS05OTAwLTRhYTEtYTM5YS0zYTkxYTRjYjdi
+NGQ7]]>
+	</property>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="MySql"/>
+	<queryString language="SQL">
+		<![CDATA[SELECT *
+FROM harita.personel]]>
+	</queryString>
+	<field name="id" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="id"/>
+		<property name="com.jaspersoft.studio.field.label" value="id"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="personel"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="tcno" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="tcno"/>
+		<property name="com.jaspersoft.studio.field.label" value="tcno"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="personel"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="adi" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="adi"/>
+		<property name="com.jaspersoft.studio.field.label" value="adi"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="personel"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="soyadi" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="soyadi"/>
+		<property name="com.jaspersoft.studio.field.label" value="soyadi"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="personel"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="sifre" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="sifre"/>
+		<property name="com.jaspersoft.studio.field.label" value="sifre"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="personel"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="birlik_id" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="birlik_id"/>
+		<property name="com.jaspersoft.studio.field.label" value="birlik_id"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="personel"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="resim" class="byte[]">
+		<property name="com.jaspersoft.studio.field.name" value="resim"/>
+		<property name="com.jaspersoft.studio.field.label" value="resim"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="personel"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="ev_koor_enlem" class="java.math.BigDecimal">
+		<property name="com.jaspersoft.studio.field.name" value="ev_koor_enlem"/>
+		<property name="com.jaspersoft.studio.field.label" value="ev_koor_enlem"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="personel"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="ev_koor_boylam" class="java.math.BigDecimal">
+		<property name="com.jaspersoft.studio.field.name" value="ev_koor_boylam"/>
+		<property name="com.jaspersoft.studio.field.label" value="ev_koor_boylam"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="personel"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="43" splitType="Stretch">
+			<staticText>
+				<reportElement x="200" y="10" width="130" height="30" uuid="6a86512e-fa60-400c-8809-65c9eed3abf9"/>
+				<textElement>
+					<font size="22" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Örnek Rapor]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="16" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="20" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="43" height="20" forecolor="#FF0000" uuid="10071afe-20cd-49d0-b6da-68d7f91a98d8">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="795ff8d0-5159-41d9-8f9a-db3e00f287b4"/>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Adı]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="120" y="0" width="50" height="20" forecolor="#FF0000" uuid="83166ed9-c7f2-4024-a0cb-051d0f866a7c">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="5facdce1-13c7-4b2a-8e1c-23702449b433"/>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Soyadı]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="28" splitType="Stretch">
+			<textField>
+				<reportElement x="0" y="0" width="60" height="20" uuid="52e7602f-724f-4943-b846-e47a0bf47523">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="795ff8d0-5159-41d9-8f9a-db3e00f287b4"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{adi}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="120" y="0" width="60" height="16" uuid="1b46aa5d-7416-43e4-b4a2-090ddfb7e6bf">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="5facdce1-13c7-4b2a-8e1c-23702449b433"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{soyadi}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>
