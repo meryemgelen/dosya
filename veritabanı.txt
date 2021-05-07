@@ -1,0 +1,2 @@
+CREATE TABLE `harita`.`rapor` (  `id` INT NOT NULL AUTO_INCREMENT,  `personel_id` INT NULL,  `tarih` TIMESTAMP NULL,  `adi` VARCHAR(200) NULL,  PRIMARY KEY (`id`));
+ALTER TABLE `harita`.`rapor` ADD COLUMN `rapor` BLOB NULL AFTER `adi`;
